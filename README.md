@@ -12,3 +12,4 @@ Set up instructions:<br/>
 &nbsp;&nbsp; npm start
   
 On the github repository page you will find all information about how to start a web server and how to use API locally for development.&nbsp;
+
