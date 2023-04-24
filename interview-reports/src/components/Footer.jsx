@@ -7,8 +7,8 @@ const Footer = () => {
   return (
     <footer class="page-footer container-fluid">
       <div class="container my-3 d-flex flex-column align-items-center">
-        © 2023 Intellectual property of Jelena, Vlada, Blaža, and Matija. All
-        rights reserved. All wrongs pardoned.
+        © 2023 Intellectual property of Vladimir Lukic. All
+        rights reserved.
       </div>
     </footer>
   );
