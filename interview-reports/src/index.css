@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  font-family: 'Nunito', sans-serif!important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.modal{
+  background: transparent!important;
+  box-shadow: none!important;
+}
+.modal-dialog{
+  margin-top:5%!important;
+}

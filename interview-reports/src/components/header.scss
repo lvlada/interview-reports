@@ -1,0 +1,41 @@
+header {
+    background-color: #7c7D80 !important;
+    width: 100%;
+    color: white;
+    border-bottom: 4px solid #087EA4;
+}
+.header-link {
+    text-decoration: none;
+    color: inherit;
+
+    
+}
+.header-link:hover {
+    color: white;
+    text-shadow:3px 3px 3px black;
+}
+
+.candidatesBtn{
+    border:2px solid white;
+    &:focus{
+        background-color: #087EA4;
+    }
+    &:hover{
+        background-color: #087EA4;
+        border:2px solid white;
+        a{
+            color: white;
+        }
+    }
+    a{
+        color: white;
+    }
+}
+
+h3{
+  &:hover{
+    -webkit-transform: scale(1.05);
+    -webkit-transition: all .6s ease;
+    letter-spacing: 0.5px;
+  }  
+}

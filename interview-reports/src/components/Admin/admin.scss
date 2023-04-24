@@ -1,0 +1,265 @@
+@media only screen and (max-width: 769px) {
+
+    .report-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 3rem;
+
+        .div-left {
+            display: flex;
+            flex-direction: column;
+
+            .report-button {
+                margin-bottom: 1.5rem;
+                text-align: left;
+                width: 260px;
+                font-weight: bold;
+                background-color: lightgrey;
+
+                &:hover {
+                    background-color: #087EA4;
+                    border: 2px solid white;
+
+                    a {
+                        color: white;
+                    }
+                }
+            }
+
+            .selectedInfo {
+                margin-top: 1rem;
+                border-top: 3px solid black;
+                padding-top: 1rem;
+            }
+        }
+
+        .div-right {
+            border-top: 3px solid black;
+            padding-top: 2rem;
+            margin-bottom: 100px;
+
+            .select-candidate-list {
+                width: 330px;
+                min-height: 90px;
+                margin-right: 1rem;
+            }
+
+            .select-company-list {
+                width: 300px;
+                height: 50px;
+                margin-right: 1rem;
+            }
+
+            .active {
+                border: 2px solid #087EA4;
+
+                //margin-bottom: 20px;
+                h4,
+                h5 {
+                    color: #087EA4;
+                }
+            }
+
+            .textArea {
+                height: 125px;
+            }
+        }
+    }
+
+    .emphasize {
+        border: 3px solid #087EA4;
+    }
+
+    .cont {
+        margin-top: 50px;
+
+        button {
+            margin-left: 5px;
+            margin-top: 5px;
+        }
+
+        h1 {
+            color: #087EA4;
+        }
+    }
+
+    .btn-outline {
+        border: 2px solid white;
+        background-color: lightgrey;
+
+        &:focus {
+            background-color: #087EA4;
+        }
+
+        &:hover {
+            background-color: #087EA4;
+            border: 2px solid white;
+
+            a {
+                color: white;
+            }
+        }
+    }
+
+    .select-candidate {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .btn-outline-one {
+        border: 2px solid white;
+        background-color: lightgrey;
+        margin-right: 50px;
+        margin-top: 20px;
+
+        &:hover {
+            background-color: #087EA4;
+            border: 2px solid white;
+            color: antiquewhite;
+
+            a {
+                color: white;
+            }
+        }
+    }
+
+    label {
+        font-size: 14px;
+        color: gray;
+        padding-top: 20px;
+
+    }
+
+    .dateLabel {
+        margin-top: -1px !important;
+    }
+}
+
+@media only screen and (min-width: 770px) {
+.report-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+    .div-left {
+        display: flex;
+        flex-direction: column;
+        .report-button {
+            margin-bottom: 1.5rem;
+            text-align: left;
+            width: 260px;
+            font-weight: bold;
+            background-color: lightgrey;
+            &:hover{
+                background-color: #087EA4;
+                border:2px solid white;
+                a{
+                    color: white;
+                }
+            }
+        }
+.selectedInfo {
+    margin-top: 1rem;
+    border-top: 3px solid black;
+    padding-top: 1rem;
+}
+    }
+    .div-right {
+        margin-left: 3rem;
+        border-left: 3px solid black;
+        padding-left: 3rem;
+        margin-bottom:100px;
+        .select-candidate-list {
+                width: 330px;
+                min-height: 90px;
+                margin-right: 1rem;
+            }
+            .select-company-list {
+                width: 300px;
+                height: 50px;
+                margin-right: 1rem;
+            }
+.active {
+        border: 2px solid #087EA4;
+        //margin-bottom: 20px;
+        h4,
+        h5 {
+            color: #087EA4;
+        }
+    }
+
+                .textArea {
+                    height: 125px;
+                }
+    }
+}
+.emphasize {
+    border: 3px solid #087EA4;
+}
+.cont{
+    margin-top: 50px;
+    button{
+        margin-top:5px;
+        & + button{
+            margin-left:5px;
+        }
+    }
+    h1{
+        color: #087EA4;
+    }
+}
+.btn-outline{
+    border:2px solid white;
+    background-color: lightgrey;
+    &:focus{
+        background-color: #087EA4;
+    }
+    &:hover{
+        background-color: #087EA4;
+        border:2px solid white;
+        a{
+            color: white;
+        }
+    }
+}
+.bgSubmit{
+    &:focus{
+        background-color: #087EA4;
+        color: white;
+    }
+}
+.select-candidate {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.btn-outline-one{
+    border:2px solid white;
+    background-color: lightgrey;
+    margin-right:50px;
+    margin-top: 20px;
+    
+    &:hover{
+        background-color: #087EA4;
+        border:2px solid white;
+        color:antiquewhite;
+        a{
+            color: white;
+        }
+    }
+}
+
+label{
+    font-size:14px;
+    color: gray;
+    padding-top:20px;
+
+}
+.dateLabel{
+    margin-top:-1px!important;
+}
+}
+
+.container-fluid{
+    padding-left: 0;
+}

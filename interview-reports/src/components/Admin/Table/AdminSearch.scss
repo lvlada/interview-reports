@@ -1,0 +1,13 @@
+
+input{
+    border: 1px solid gray!important;
+    border-radius: 25px!important;
+    height:2rem!important;
+    margin-top:20px!important;
+    padding-left:10px!important;
+    background-color: white!important;
+    &:focus{
+        box-shadow: 5px 5px 3px rgb(169, 167, 167)!important;
+
+    }
+}

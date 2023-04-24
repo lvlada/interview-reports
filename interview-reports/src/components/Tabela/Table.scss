@@ -1,0 +1,21 @@
+// i:hover {
+//   cursor: pointer !important;
+// }
+
+table i:hover{
+  cursor: pointer !important;
+}
+
+.active{
+  color:red!important;
+}
+.nonActive{
+  background-color: inherit!important;
+}
+table{
+  margin-bottom: 150px!important;
+ 
+}
+th{
+  border-bottom: 2px solid #087ea4!important;
+}

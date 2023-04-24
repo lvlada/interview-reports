@@ -1,0 +1,43 @@
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+a {
+  color: rgb(10, 9, 9);
+  text-decoration: none;
+  padding: 20px;
+  margin-top: 30px;
+}
+#countUp {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 25px;
+}
+.number {
+  font-size: 4rem;
+  font-weight: 500;
+
+  + .text {
+    margin: 0 0 1rem;
+  }
+}
+
+.text {
+  font-weight: 300;
+  text-align: center;
+}
+
+.homeBtn {
+  border: 2px solid #087ea4;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  &:hover {
+    background: #087ea4;
+    color: white;
+  }
+}

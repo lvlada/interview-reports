@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url('../Images/AdobeStock_291217289.jpg');
+    background-size: cover;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+input {
+    max-width: 300px;
+}
